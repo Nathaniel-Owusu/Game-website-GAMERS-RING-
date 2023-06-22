@@ -1,0 +1,41 @@
+#side-background {
+  background-color: lightgrey;
+}
+
+#current {
+  color: red;
+}
+
+#current-2 {
+  color: blue;
+}
+
+
+.fa-solid {
+  color: blue;
+  padding-right: 5px;
+}
+
+.fa-brands {
+  color: blue;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.fa-envelope {
+  font-size: 25px;
+}
+
+#footer-bottom {
+  background-color: rgb(177, 177, 177);
+}
+
+.fa-forward {
+  padding-left: 5px;
+}
+
+.error {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  text-transform: capitalize;
+}

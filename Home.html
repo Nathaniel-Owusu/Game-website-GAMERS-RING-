@@ -1,0 +1,379 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamers Ring</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/bootstrap.css" />
+    <link rel="stylesheet" href="./style sheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <!--------------NAVIGATION START-------------->
+      <section>
+        <div class="text-bg-primary text-center mt-1 p-1">
+          <h1 class="text-uppercase ">Gamers Ring</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-primary mt-1">
+          <div class="container-fluid">
+            <div class="navbar-collapse w-25">
+              <ul class="navbar-nav mb-lg-0 mt-2 d-flex flex-row">
+                <li class="nav-item me-lg-4 ms-md-2 me-1 m-2 ">
+                  <p><a href="Home.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder" id="current">Home</a></p>
+                </li>
+                <li class="nav-item me-lg-4 ms-md-2 me-1 m-2">
+                  <p><a href="ps3 Games.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder">Ps3Games</a></p>
+                </li>
+                <li class="nav-item me-lg-4 ms-md-2 me-1 m-2">
+                  <p><a href="ps4 Games.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder">Ps4Games</a></p>
+                </li>
+                <li class="nav-item me-lg-4 ms-md-2 me-1 m-2 me-md-3">
+                  <p><a href="ps5 Games.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder">Ps5Games</a></p>
+                </li>
+              </ul>
+      <!--------------SEARCH BOX--------------> 
+              <form class="d-flex flex-fill mb-0 Ps-lg-4" role="search" id="form-search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!--------------NAVIGATION END-------------->
+
+       <!--------------CAROUSEL START-------------->
+      <section>
+          <div id="carouselExampleAutoplaying" class="carousel slide position-relative mt-1" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item carousel-image active">
+                  <div class="bg-black position-absolute  w-100 h-100 opacity-50"></div>
+                  <img src="./images/backgroung/background 3.jpg" class="d-block w-100 object-fit-fill" alt="..." height="25%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Gamers Ring</h5>
+                    <p>Download All Your Favourite Games right from here.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="bg-black position-absolute  w-100 h-100 opacity-50"></div>
+                  <img src="./images/home/ghost recon.jpg" class="d-block w-100 object-fit-fill" alt="..." height="25%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="bg-black position-absolute  w-100 h-100 opacity-50"></div>
+                  <img src="./images/home/call of duty 4.jpg" class="d-block w-100 object-fit-fill" alt="..." height="25%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> 
+          </div>
+      </section>
+      <!--------------CAROUSEL END-------------->
+
+      <!--------------MAIN BODY START-------------->
+      <div class="row" id="main-body">
+       <!-------------- ERROR MESSAGE -------------->
+       <div class="msg"></div>
+       <!-------------- ERROR MESSAGE -------------->
+        <div class="col-sm-8">
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 g-2 pt-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/fifa 22.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">FIFA 22</h5 class="card-title-name">
+                  <p class="card-text">FIFA 22 is a football simulation video game published by Electronic Arts It is the 29th installment in the FIFA serie</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/fifa 22-download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/call of duty 4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">CALL OF DUTY 4</h5>
+                  <p class="card-text">Call of Duty: Modern Warfare is a 2019 first-person shooter game developed by Infinity Ward.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/call of duty Download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 5 days ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/demon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">DEMON SOUL</h5>
+                  <p class="card-text">Demon's Souls is an action role-playing video game developed by Bluepoint Games and published by Sony.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/demon soul download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 5 days ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/halo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">HALO INFINTE</h5>
+                  <p class="card-text">Halo Infinite is a 2021 first-person shooter game developed by 343 Industries and published by Xbox Game Studios.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/halo infinite download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 7 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/little big.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">LITTLE BIG PLANET</h5>
+                  <p class="card-text">LittleBigPlanet is a puzzle platform video game series created by British developer Media Molecule and published by Sony.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/little big download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 20 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/prototype.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">PROTOTYPE</h5>
+                  <p class="card-text">Prototype 2 is a 2012 open world action-adventure video game. Developed by Canadian studio Radical Entertainment. </p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/prototype download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 10 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/god fo war.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName"> GOD OF WAR 2018</h5>
+                  <p class="card-text">God of War is an action-adventure video game developed by Santa Monica Studio and published by Sony.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/god of war download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 1 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/home/ghost recon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title gameName">GHOST RECON BREAKPOINT</h5>
+                  <p class="card-text">Tom Clancy's Ghost Recon Breakpoint is a tactical shooter video game developed by Ubisoft Paris.</p>
+                </div>
+                <a class="btn btn-outline-primary m-2" href="./home download LINKS/ghost recon download.html" role="button"><i class="fa-solid fa-download fa-beat"></i>Download</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 2 mins ago</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!--------------SIDE BAR START-------------->
+        <div class="col-sm-4 pt-2">
+          <div class="text-center" id="side-background">
+            <h5 class="fw-bolder p-2">RECENTLY ADDED</h5>
+          </div>
+          <div class="row row-cols-md-1 row-cols-lg-2">
+            <div>
+              <div class="row mt-1">
+                <div class="col-8">
+                  <img src="./images/home/fifa 23 (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-4">
+                  <h6 class="card-title text-center pt-3 fw-bolder m-4 m-md-2">FIFA 23</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="row mt-1">
+                <div class="col-8">
+                  <img src="./images/home/God of war ragnarock.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-4">
+                  <h6 class="card-title text-center pt-3 fw-bolder m-4 m-md-2">GOD OF WAR</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="row mt-1">
+                <div class="col-8">
+                  <img src="./images/home/MORTAL KOMBAT 1 (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-4">
+                  <h6 class="card-title text-center pt-3 fw-bolder m-4 m-md-2">MORTAL KOMBAT 1</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="row mt-1">
+                <div class="col-8">
+                  <img src="./images/home/BATTLEFIED V (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-4">
+                  <h6 class="card-title text-center pt-3 fw-bolder m-4 m-md-2">BATTLE FIELD V</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="row mt-1">
+                <div class="col-8">
+                  <img src="./images/home/call of duty 4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-4">
+                  <h6 class="card-title text-center pt-3 fw-bolder m-4 m-md-2">Call of Duty</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="mt-3 p-2 " id="side-background">
+            <h1 class="text-center text-uppercase fw-bolder">Note</h1>
+            <p>The search box above allows you to such for games on This Page only,Please Navigate to other pages to download for other platforms.</p>
+            <p class="fw-bolder text-uppercase text-center">The home page contains only pc gamers </p>
+          </div>
+
+          <div class="mt-3 p-2" id="side-background">
+            <h3 class="text-center text-uppercase pb-2 fw-bolder">Ultimate guide to install games</h3>
+            <img src="./images/home/call of duty 4.jpg" class="card-img-top" alt="...">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quidem.</p>
+            <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover d-flex justify-content-center">Readmore</a></p>
+          </div>
+
+          <div class="mt-3 p-2" id="side-background">
+            <h3 class="text-center text-uppercase pb-2 fw-bolder">How to download</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque et veniam molestiae totam vel nemo reprehenderit nobis quae molestias ad.</p>
+            <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover d-flex justify-content-center">Readmore</a></p>
+          </div>
+
+        </div>
+
+      </div>
+      <!--------------SIDE BAR END-------------->
+      <!--------------MAIN BODY END-------------->
+
+      <!--------------PAGINATION START-------------->
+      <section class="mt-3">
+        <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link"><i class="fa-solid fa-backward"></i>Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="Home.html">1</a></li>
+            <li class="page-item" aria-current="page">
+              <a class="page-link" href="./next page HTMLS/nextPage.html">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="./next page HTMLS/nextPage.html">Next<i class="fa-solid fa-forward"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!--------------PAGINATION  END-------------->
+
+      <!--------------FOOTER-------------->
+      <section class="m-1" id="side-background">
+        <div class="row pt-4 m-4">
+          <div class="col m-2">
+            <h6 class="text-uppercase fw-bolder">Contact us</h6>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, repellendus! Eum natus qui molestiae ratione molestias culpa inventore sint itaque necessitatibus delectus debitis, sapiente fugiat dolores ut sed quis quasi iste labore animi repudiandae laboriosam quisquam ad. Omnis quod possimus esse dicta architecto vel vero earum cum, quasi, ipsum eum?</p>
+          </div>
+
+          <div class="col m-2">
+            <h6 class="text-uppercase fw-bolder">Keep Connected</h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fa-brands fa-facebook"></i>facebook : Gamers-Ring</li>
+              <li class="list-group-item"><i class="fa-brands fa-twitter"></i>twitter : Gamers-Ring</li>
+              <li class="list-group-item"><i class="fa-brands fa-square-instagram"></i>instagram : Gamers-Ring</li>
+              <li class="list-group-item"> <i class="fa-brands fa-telegram"></i>telegram : Gamers-Ring</li>
+            </ul>
+          </div>
+          
+          <div class="col m-2">
+            <h6 class="text-uppercase fw-bolder">Contact Information</h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fa-brands fa-square-whatsapp fa-beat"></i>whatsapp : +233596498006 / +233202597538</li>
+              <li class="list-group-item"><i class="fa-solid fa-envelope"></i>Email : NathanielOwusu01@gmail.com</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="m-3 m-md-2 mb-md-3 ms-lg-5">
+          <div class="text-center mt-2 d-lg-none">
+            <h3 class="text-uppercase">Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, sunt.</p>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <img class="border border-primary border-3 p-1 d-lg-none" src="./images/IMG_20210822_143307_215.jpg" class="img-fluid" alt="..." width="100%" height="100%">
+              </div>
+              <div class="col d-lg-none">
+                <h4>HELLO, <strong class="text-primary">I am Nathaniel Owusu </strong> </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, est!</p>
+                <p><strong>Name</strong> : Nathaniel Owusu</p>
+                <p><strong>Age</strong> : 24</p>
+                <p><strong>Field</strong> : Front end wed developer</p>
+                <p> <strong> Student of Accra Institute of Technology(AIT)</strong></p>
+                <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder">Readmore</a></p>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="row p-0 m-0" id="footer-bottom">
+          <div class="text-center pt-3">
+            <p>Gamers ring, copyright &copy; 2023 / Made with<i class="fa-solid fa-heart"></i>by Nathaniel Owusu</p>
+          </div>
+      </section>
+    </div>
+    <script src="./bootstrap-5.3.0-alpha3-dist/bootstrap.js"></script>
+    <script src="./Javascript/main.js"></script>
+  </body>
+</html>
